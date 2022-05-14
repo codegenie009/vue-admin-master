@@ -41,7 +41,7 @@
             v-model="form.country"
             bordered
             class="sub-select"
-            width="90px"
+            width="140px"
           />
           <va-input v-model="form.business_address3" class="address-3"></va-input>
         </div>
@@ -67,8 +67,8 @@
         </div>
         <div class="d-flex align-content--center justify--start mb-4">
           <span class="mr-3 text--secondary my-auto label">{{ $t('business_profile.legal_name') }}</span>
-          <va-input v-model="form.firstname" class="mr-3"></va-input>
-          <va-input v-model="form.lastname"></va-input>
+          <va-input v-model="form.firstname" class="mr-3 legal-input-1"></va-input>
+          <va-input v-model="form.lastname" class="legal-input-2"></va-input>
         </div>
         <div class="d-flex align-content--center justify--start mb-4">
           <span class="mr-3 text--secondary my-auto label">{{ $t('business_profile.date_of_birth') }}</span>
@@ -86,7 +86,9 @@
         <div class="d-flex align-content--center justify--start mb-4">
           <span class="mr-3 text--secondary my-auto label">{{ $t('business_profile.passport_id') }}</span>
           <va-input v-model="form.passport_id"></va-input>
-          
+        </div>
+        <div class="d-flex align-content--center justify--start mb-4">
+          <span class="mr-3 text--secondary my-auto label"></span>
           <va-checkbox
             :label="$t('business_profile.secondCitizenship')"
             v-model="form.connection"
@@ -187,12 +189,12 @@ export default {
 
 .business-information-tab {
   .label {
-    width: 200px;
+    width: 300px;
     font-size: 14px;
   }
 
   .va-input-wrapper__content {
-    width: 200px;
+    width: 300px;
     border: 1px solid gray;
   }
 
@@ -204,14 +206,14 @@ export default {
     flex: none;
     margin-right: 20px;
     .va-input-wrapper__content {
-      width: 90px;
+      width: 140px;
       border: 1px solid gray;
     }
 
   }
   .address-3 {
     .va-input-wrapper__content {
-      width: 90px;
+      width: 140px;
     }
   }
   .tax-input-1 {
@@ -224,13 +226,27 @@ export default {
   .tax-input-2 {
     flex: none;
     .va-input-wrapper__content {
-      width: 130px;
+      width: 200px;
     }
   }
 
   .va-checkbox {
     .va-input-wrapper__content {
       border: none;
+    }
+  }
+
+  .legal-input-1 {
+    flex: none;
+    .va-input-wrapper__content {
+      width: 150px;
+    }
+  }
+
+  .legal-input-2 {
+    flex: none;
+    .va-input-wrapper__content {
+      width: 150px;
     }
   }
 }
