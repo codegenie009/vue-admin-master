@@ -54,22 +54,22 @@ export default {
         {
           name: 'account_setting',
           icon: 'vuestic-iconset-settings',
-          redirectTo: '',
+          redirectTo: 'account_setting',
         },
         {
           name: 'business_profile',
           icon: 'vuestic-iconset-settings',
-          redirectTo: '',
+          redirectTo: 'business_profile',
         },
         {
           name: 'inquiries',
           icon: 'vuestic-iconset-settings',
-          redirectTo: '',
+          redirectTo: 'inquiries',
         },
         {
           name: 'faq',
           icon: 'vuestic-iconset-settings',
-          redirectTo: '',
+          redirectTo: 'faq',
         },
         {
           name: 'logout',

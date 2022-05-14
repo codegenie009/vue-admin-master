@@ -113,6 +113,27 @@ const routes: Array<RouteRecordRaw> = [
         component: () => import('@/pages/admin/resolution-center/ResolutionCenter.vue'),
       },
 
+      {
+        name: 'account_setting',
+        path: 'account_setting',
+        component: () => import('@/pages/admin/account-setting/AccountSetting.vue'),
+      },
+      {
+        name: 'business_profile',
+        path: 'business_profile',
+        component: () => import('@/pages/admin/business-profile/BusinessProfile.vue'),
+      },
+      {
+        name: 'inquiries',
+        path: 'inquiries',
+        component: () => import('@/pages/admin/inquiries/Inquiries.vue'),
+      },
+      {
+        name: 'faq',
+        path: 'faq',
+        component: () => import('@/pages/admin/faq/FAQ.vue'),
+      },
+
       /**
        * Default routes
        */

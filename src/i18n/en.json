@@ -593,5 +593,11 @@
     "overflow": "Tabs Overflow",
     "hidden": "Tabs with Hidden slider",
     "grow": "Tabs Grow"
+  },
+  "business_profile": {
+    "business_profile": "Business Profile",
+    "business_information": "Business Information",
+    "payout_information": "Payout Information",
+    "documents_upload": "Documents to upload"
   }
 }
