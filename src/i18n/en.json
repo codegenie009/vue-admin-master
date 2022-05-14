@@ -598,6 +598,19 @@
     "business_profile": "Business Profile",
     "business_information": "Business Information",
     "payout_information": "Payout Information",
-    "documents_upload": "Documents to upload"
+    "documents_upload": "Documents to upload",
+    "general_business_information": "General Business Information",
+    "your_business_location": "Your Business Location",
+    "business_type": "Business Type",
+    "business_address": "Business Address",
+    "tax_number": "Tax. ID Number",
+    "website_address": "Website Address",
+    "business_representative": "You, the Business Representative",
+    "legal_name": "Legal Name",
+    "date_of_birth": "Date of Birth",
+    "nationality": "Nationality",
+    "passport_id": "Passport ID",
+    "phone_number": "Phone Number",
+    "secondCitizenship": "Do you have a second citizenship?"
   }
 }

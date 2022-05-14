@@ -9,12 +9,36 @@
       <va-tabs v-model="activeTabName">
         <template #tabs>
           <va-tab name="BusinessInformationTab">
+            <va-avatar
+              class="mr-4"
+              size="small"
+              color="#000000"
+              text-color="#FFFFFF"
+            >
+              1
+            </va-avatar>
             {{$t('business_profile.business_information')}}
           </va-tab>
           <va-tab name="PayoutInformationTab">
+            <va-avatar
+              class="mr-4"
+              size="small"
+              color="#000000"
+              text-color="#FFFFFF"
+            >
+              2
+            </va-avatar>
             {{$t('business_profile.payout_information')}}
           </va-tab>
           <va-tab name="DocumentsUploadTab">
+            <va-avatar
+              class="mr-4"
+              size="small"
+              color="#000000"
+              text-color="#FFFFFF"
+            >
+              3
+            </va-avatar>
             {{$t('business_profile.documents_upload')}}
           </va-tab>
         </template>
@@ -39,7 +63,7 @@ export default {
   },
   data () {
     return {
-      activeTabName: 'PayoutInformationTab',
+      activeTabName: 'BusinessInformationTab',
       tabs: [
         'BusinessInformationTab',
         'PayoutInformationTab',
@@ -56,6 +80,14 @@ export default {
 </script>
 
 <style lang="scss">
+.va-tabs__wrapper {
+  height: 60px;
+  .va-tabs__container {
+    height: 60px;
+  }
+}
+
+
 .va-tabs__tabs {
   height: 100%;
 }
